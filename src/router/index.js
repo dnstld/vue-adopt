@@ -10,22 +10,22 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home
   },
   {
-    path: '/pet',
-    name: 'Pet',
+    path: '/pets/:id',
+    name: 'pet',
     component: Pet
   },
   {
     path: '/dogs',
-    name: 'Dogs',
+    name: 'dogs',
     component: Dogs
   },
   {
     path: '/cats',
-    name: 'Cats',
+    name: 'cats',
     component: Cats
   }
 ]
